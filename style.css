@@ -1,0 +1,561 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: #1A1C19;
+    width: 1728px;
+    height: 1117px;
+    top: -923px;
+    left: 37px;
+    margin: 10px;
+}
+
+/* nav-bar */
+.nav-bar {
+    position: sticky;
+    width: 100%;
+    max-width: 1687px;
+    height: 63px;
+    margin: 18px auto;
+    border-radius: 50px;
+    border: 1px solid #B1A592;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-bar1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #B1A592;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* rect */
+.rect-6, .rect-5, .rect-4, .rect-3, .rect-2 {
+    border: 1px solid #B1A592;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.rect-6 {
+    width: 184px;
+}
+
+.contact, .events, .menu, .collection, .company {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* Events */
+.rect-5 {
+    width: 184px;
+    margin-left: 20px;
+}
+
+/* Menu */
+.rect-4 {
+    width: 207px;
+    margin-left: 20px;
+}
+
+/* Collection */
+.rect-3 {
+    width: 236px;
+    margin-left: 20px;
+}
+
+/* Company */
+.rect-2 {
+    width: 282px;
+    background-color: #323025;
+    color: #fff;
+    margin-left: 20px;
+}
+
+/* section */
+.section {
+    margin: 10px;
+    margin-top: 25px;
+    display: flex;
+}
+
+/* left-section */
+.left-section {
+    margin-left: 25px;
+    padding-top: 20px;
+    background-color: #DFD6C5;
+    width: 667px;
+    height: 981px;
+    top: 99px;
+    left: 35px;
+    border-radius: 20px;
+}
+
+.para-box {
+    margin-left: 18px;
+    width: 207px;
+    height: 34px;
+    top: 132px;
+    left: 53px;
+    border-radius: 50px;
+    border: 1px solid #323025;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-p {
+    color: #323025;
+    width: 146px;
+    height: 24px;
+    top: 137px;
+    left: 84px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+
+.section-h {
+    display: inline;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 271px;
+    height: 29px;
+    top: 176px;
+    left: 53px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    
+}
+
+.section-image {
+    margin-top: 20px;
+    margin-left: 18px;
+    background-image: url("section1.png");
+    background-size: cover;
+    width: 631px;
+    height: 730px;
+    top: 224px;
+    left: 53px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section-image:hover {
+    transform: scale(1.05);
+}
+
+.hr-line {
+    margin-top: 20px;
+    width: 666px;
+    top: 989px;
+    left: 36px;
+    border: 1px solid #333333;
+}
+
+.get-strat {
+    margin-left: 18px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.get-strat-p {
+    width: 133px;
+    height: 29px;
+    top: 1008px;
+    left: 57px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #333333;
+}
+
+.get-strat-arrow {
+    display: flex;
+    justify-content: center;
+    margin-right: 18px;
+    width: 25px;
+    top: 1023px;
+    left: 659px;
+    border: 2px solid #323025;
+}
+
+/* right section */
+.upper-part-1 {
+    margin: 10px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.loreum-content-box {
+    margin-left: 15px;
+    width: 207px;
+    height: 34px;
+    top: 132px;
+    left: 737px;
+    border-radius: 50px;
+    border: 1px solid #323025;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loreum-content-p {
+    width: 146px;
+    height: 24px;
+    top: 137px;
+    left: 768px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+
+/* right upper section */
+.right-upper {
+    margin: 10px;
+    width: 967px;
+    height: 356px;
+    top: 99px;
+    left: 719px;
+    border-radius: 30px;
+    background-color: #8E886D;
+}
+
+.loreum-content-h {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 271px;
+    height: 29px;
+    top: 176px;
+    left: 737px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.01px;
+    display: inline;
+}
+
+.loreum-content-para {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 382px;
+    height: 72px;
+    top: 228px;
+    left: 738px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #333333;
+}
+
+.loreum-content-img {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-image: url("section2.png");
+    background-size: cover;
+    width: 523px;
+    height: 235px;
+    top: 132px;
+    left: 1134px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.loreum-content-img:hover {
+    transform: scale(1.05);
+}
+
+.loreum-content-hr {
+    margin-top: 10px;
+    width: 100%;
+    top: 390px;
+    left: 719px;
+    border: 1px solid #333333;
+}
+
+.loreum-content-get-start {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loreum-content-p-get {
+    margin-left: 10px;
+    width: 194px;
+    height: 29px;
+    top: 409px;
+    left: 749px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+.loreum-content-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    width: 36px;
+    top: 424px;
+    left: 1624px;
+    border: 2px solid #323025;
+}
+
+/* right lower */
+.right-lower {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* lower part 1 */
+.porta-lower1 {
+    padding-top: 20px;
+    background-color: #916E58;
+    width: 405px;
+    height: 597px;
+    top: 480px;
+    left: 729px;
+    border-radius: 30px;
+}
+
+.portaait-img {
+    margin-top: 10px;
+    padding-top: 10px;
+    background-image: url("section3.png");
+    background-size: cover;
+    width: 385px;
+    height: 168px;
+    top: 492px;
+    left: 736px;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portaait-img:hover {
+    transform: scale(1.05);
+}
+
+.portrait-h {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 304px;
+    height: 59px;
+    top: 678px;
+    left: 749px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.57px;
+    color: #333333;
+}
+
+.Portrait-p {
+    width: 382px;
+    height: 216px;
+    top: 747px;
+    left: 738px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: center;
+}
+
+.Portrait-hr {
+    width: 404.39px;
+    top: 989px;
+    left: 730px;
+    border: 1px solid #333333;
+    margin-top: 10px;
+}
+
+.potta-lower2 {
+    background-color: #B1A48E;
+    width: 525px;
+    height: 597px;
+    top: 480px;
+    left: 1161px;
+    border-radius: 30px;
+}
+
+.Portrait-start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-s-p {
+    width: 184px;
+    height: 17px;
+    top: 1014px;
+    left: 744px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.get-s-a {
+    width: 15.18px;
+    top: 1031px;
+    left: 1106px;
+    border: 2px solid #323025;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/* last section start */
+.part1 {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.part-1-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    width: 207px;
+    height: 35px;
+    top: 530px;
+    left: 1179px;
+    border-radius: 50px;
+    border: 1px solid #323025;
+}
+
+.part-1-p {
+    width: 146px;
+    height: 24.71px;
+    top: 535.15px;
+    left: 1210px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #323025;
+}
+
+.part-1-h {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 304px;
+    height: 59px;
+    top: 601px;
+    left: 1192px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.57px;
+}
+
+.part-1-img {
+    margin-top: 10px;
+    margin-right: 20px;
+    background-image: url("section4.png");
+    background-size: cover;
+    width: 113px;
+    height: 113px;
+    top: -390px;
+    left: 1576px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.part-1-img:hover {
+    transform: scale(1.05);
+}
+
+.part2 {
+    margin-top: 10px;
+    width: 485px;
+    height: 321px;
+    top: 664px;
+    left: 1132px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+}
+
+.part2-hr {
+    margin-top: 10px;
+    width: 525px;
+    top: 989px;
+    left: 1161px;
+    border: 1px solid #333333;
+}
+
+.part3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part3-get-start {
+    margin-left: 15px;
+    width: 239px;
+    height: 17px;
+    top: 1014px;
+    left: 1179px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #333333;
+    text-decoration: underline;
+}
+
+.part3-arrow {
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    top: 1031px;
+    left: 1649px;
+    border: 2px solid #323025;
+}
+
+/* Hover effects */
+/* Remove default underline from headings */
+.section-h,
+.loreum-content-h,
+.portrait-h,
+.part-1-h {
+    text-decoration: none; 
+}
+
+/* Apply underline on hover for headings */
+.section-h:hover,
+.loreum-content-h:hover,
+.portrait-h:hover,
+.part-1-h:hover {
+    text-decoration: underline; 
+}
+
+/* Hover effects for images to keep scaling */
+.section-image:hover,
+.loreum-content-img:hover,
+.portaait-img:hover,
+.part-1-img:hover {
+    transform: scale(1.05);
+}
+
